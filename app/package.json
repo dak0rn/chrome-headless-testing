@@ -1,0 +1,16 @@
+{
+    "name": "chrome-headless-testing",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "eslint": "^4.1.0",
+        "nightwatch": "^0.9.16"
+    },
+    "scripts": {
+        "start": "nightwatch"
+    },
+    "crawler": {
+        "target": "https://danielkoch.work/"
+    }
+}
